@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <title>Найзууд</title>
+  <meta charset="UTF-8">
+  <title>Найзууд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    .nav {
+      margin-bottom: 20px;
+    }
+    .nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: #0096c7;
+    }
+    .nav a:hover {
+      color: #0077b6;
+    }
+    .friend-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px gray;
+      padding: 15px;
+      width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .friend-card img {
+      width: 300px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    .friend-card h3 {
+      color: #0077b6;
+      margin: 5px 0;
+    }
+    .friend-card p {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
-    <table border="1" width="100%">
-        <tr>
-            <td colspan="5" align="center"><h1>Найзууд</h1></td>
-        </tr>
-        <tr align="center">
-            <td><a href="index.html">Нүүр</a></td>
-            <td><a href="about.html">Миний тухай</a></td>
-            <td><a href="family.html">Миний гэр бүл</a></td>
-            <td><a href="friends.html">Найзууд</a></td>
-            <td><a href="contact.html">Холбоо барих</a></td>
-        </tr>
-        <tr>
-            <td colspan="5" align="center">
-                <!-- Гурвуулын зураг -->
-                <img src="IMG_0257.jpeg" alt="Бидний зураг" style="max-width:400px; height:auto; border-radius:15px;">
-                <p>
-                    Бид 6-р ангиасаа хойш өнөөг хүртэл найзалж ирсэн.  
-                </p>
-                <p>
-                    Нэг найзыг маань <b>Тэгшжаргал</b> гэдэг бөгөөд Монгол Улсын Их Сургуульд сурдаг.  
-                </p>
-                <p>
-                    Нөгөө найзыг маань <b>Дэлгэрмаа</b> гэдэг бөгөөд Шинжлэх Ухаан Технологийн Их Сургуульд сурдаг.  
-                </p>
-            </td>
-        </tr>
-    </table>
+
+<h1>Найзууд</h1>
+
+<div class="nav">
+  <a href="index.html">Нүүр</a>
+  <a href="about.html">Миний тухай</a>
+  <a href="family.html">Миний гэр бүл</a>
+  <a href="friends.html">Найзууд</a>
+  <a href="contact.html">Холбоо барих</a>
+</div>
+
+<div class="friend-card">
+  <img src="IMG_0257.jpeg" alt="Бидний зураг">
+  <h3>Тэгшжаргал</h3>
+  <p>Монгол Улсын Их Сургуульд сурдаг.</p>
+  <h3>Дэлгэрмаа</h3>
+  <p>Шинжлэх Ухаан Технологийн Их Сургуульд сурдаг.</p>
+  <p>Бид 6-р ангиасаа хойш найзалж байгаа.</p>
+</div>
+
 </body>
 </html>
-
