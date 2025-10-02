@@ -1,28 +1,95 @@
 <!DOCTYPE html>
 <html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <title>Холбоо барих</title>
+  <meta charset="UTF-8">
+  <title>Холбоо барих</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    .nav {
+      margin-bottom: 20px;
+    }
+    .nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: #0096c7;
+    }
+    .nav a:hover {
+      color: #0077b6;
+    }
+    .contact-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px gray;
+      padding: 25px;
+      width: 400px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .contact-card h3 {
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+    .contact-card p {
+      margin: 5px 0;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0096c7;
+    }
+  </style>
 </head>
 <body>
-    <table border="1" width="100%">
-        <tr>
-            <td colspan="5" align="center"><h1>Холбоо барих</h1></td>
-        </tr>
-        <tr align="center">
-            <td><a href="index.html">Нүүр</a></td>
-            <td><a href="about.html">Миний тухай</a></td>
-            <td><a href="family.html">Миний гэр бүл</a></td>
-            <td><a href="friends.html">Найзууд</a></td>
-            <td><a href="contact.html">Холбоо барих</a></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <p>Утас: 88599392</p>
-                <p>Email: ganboldsarangoo55@gmail.com</p>
-                <p>Facebook: Г.Сарангоо</p>
-            </td>
-        </tr>
-    </table>
+
+<h1>Холбоо барих</h1>
+
+<div class="nav">
+  <a href="index.html">Нүүр</a>
+  <a href="about.html">Миний тухай</a>
+  <a href="family.html">Миний гэр бүл</a>
+  <a href="friends.html">Найзууд</a>
+  <a href="contact.html">Холбоо барих</a>
+</div>
+
+<div class="contact-card">
+  <h3>Холбогдох</h3>
+  <p>Дугаар:</p>
+  <input type="text" placeholder="88599392">
+  
+  <p>Имэйл:</p>
+  <input type="email" placeholder="ganboldsarangoo55@gmail.com">
+  
+  <p>Facebook:</p>
+  <textarea rows="5" placeholder="Г.Сарангоо"></textarea>
+  
+  <button type="submit">Илгээх</button>
+</div>
+
 </body>
 </html>
