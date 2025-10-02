@@ -1,77 +1,67 @@
 <!DOCTYPE html>
 <html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <title>Миний тухай</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f4f8;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #0077b6;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .nav {
-            background-color: #0096c7;
-            text-align: center;
-            padding: 10px;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        .nav a:hover {
-            color: yellow;
-        }
-        .content {
-            background: white;
-            margin: 40px auto;
-            padding: 20px;
-            width: 70%;
-            border-radius: 12px;
-            box-shadow: 0px 0px 10px gray;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-        .content img {
-            max-width: 250px;
-            border-radius: 12px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 0 10px gray;
+      border-radius: 10px;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 30%;
+      background-color: #e0f0ff;
+    }
+    h1 {
+      text-align: center;
+      color: #0077b6;
+    }
+  </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Миний тухай</h1>
-    </div>
-    <div class="nav">
-        <a href="index.html">Нүүр</a>
-        <a href="about.html">Миний тухай</a>
-        <a href="family.html">Миний гэр бүл</a>
-        <a href="friends.html">Найзууд</a>
-        <a href="contact.html">Холбоо барих</a>
-    </div>
-    <div class="content">
-        <img src="BeautyPlus-photo_booth-2025-09-25T05_56_10.png" alt="Миний зураг">
-        <div>
-            <p>Намайг <b>Сарангоо</b> гэдэг. Би <b>2005 оны 7 сарын 15-нд</b> төрсөн.</p>
-            <p>20 настай. Айлын дунд охин.</p>
-            <p>Одоо <b>МУИС</b>-ийн Мэдээллийн системийн 3-р түвшинд сурч байна.</p>
-            <p>Миний сонирхол гэвэл дуу сонсох, байгальд алхах, ном унших.</p>
-            <hr>
-            <h3>Боловсрол</h3>
-            <ul>
-                <li>“Дэлгэрмөрөн” цогцолбор сургуулийг 2023 онд төгссөн</li>
-                <li>Монгол Улсын Их Сургуульд сурч байгаа</li>
-            </ul>
-        </div>
-    </div>
+
+<h1>Миний тухай</h1>
+
+<table>
+  <tr>
+    <td><b>Нэр</b></td>
+    <td>Г.Сарангоо</td>
+  </tr>
+  <tr>
+    <td><b>Нас</b></td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td><b>Төрсөн өдөр</b></td>
+    <td>2005.07.15</td>
+  </tr>
+  <tr>
+    <td><b>Сонирхол</b></td>
+    <td>Дуу сонсох, байгальд алхах, ном унших</td>
+  </tr>
+  <tr>
+    <td><b>Боловсрол</b></td>
+    <td>
+      Дэлгэрмөрөн цогцолбор — 2023 онд төгссөн.<br>
+      Монгол Улсын Их Сургууль — Мэдээллийн системийн 3-р түвшинд суралцаж байна.
+    </td>
+  </tr>
+</table>
+
 </body>
 </html>
