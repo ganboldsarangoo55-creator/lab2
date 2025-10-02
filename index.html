@@ -1,34 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="mn">
 <head>
+    <meta charset="UTF-8">
     <title>Нүүр хуудас</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .nav {
+            background-color: #0096c7;
+            text-align: center;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            color: yellow;
+        }
+        .content {
+            background: white;
+            margin: 40px auto;
+            padding: 20px;
+            width: 70%;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px gray;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <table border="1" width="80%" align="center" cellpadding="10">
-        <tr>
-            <td colspan="2" align="center">
-                <h1>Сарангоогийн вэб сайт</h1>
-            </td>
-        </tr>
-        <tr>
-            <td width="20%" valign="top">
-                <!-- Навигацийн цэс -->
-                <a href="index.html">Нүүр хуудас</a><br>
-                <a href="about.html">Миний тухай</a><br>
-                <a href="family.html">Миний гэр бүл</a><br>
-                <a href="friends.html">Найзууд</a><br>
-                <a href="contact.html">Холбоо барих</a><br>
-            </td>
-            <td width="80%" valign="top">
-                <h2>Тавтай морил!</h2>
-                <p>Энэ бол миний танилцуулга вэб сайт юм. Энд миний тухай, гэр бүл, найзууд болон холбоо барих мэдээлэл оруулсан болно.</p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center">
-                © 2025 Сарангоо
-            </td>
-        </tr>
-    </table>
+    <div class="header">
+        <h1>Миний танилцуулга вэб сайт</h1>
+    </div>
+    <div class="nav">
+        <a href="index.html">Нүүр</a>
+        <a href="about.html">Миний тухай</a>
+        <a href="family.html">Миний гэр бүл</a>
+        <a href="friends.html">Найзууд</a>
+        <a href="contact.html">Холбоо барих</a>
+    </div>
+    <div class="content">
+        <h2>Сайн байна уу!</h2>
+        <p>Миний хувийн танилцуулгын вэб сайтанд тавтай морил.  Энд миний тухай, гэр бүл, найзууд болон холбоо барих мэдээлэл оруулсан болно.</p>
+    </div>
 </body>
 </html>
+
+
+
+
