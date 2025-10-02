@@ -1,26 +1,81 @@
 <!DOCTYPE html>
 <html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <title>Миний гэр бүл</title>
+  <meta charset="UTF-8">
+  <title>Миний гэр бүл</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    .nav {
+      margin-bottom: 20px;
+    }
+    .nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: #0096c7;
+    }
+    .nav a:hover {
+      color: #0077b6;
+    }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 0 auto;
+      text-align: left;
+      background: white;
+      box-shadow: 0 0 10px gray;
+      border-radius: 12px;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    td:first-child {
+      font-weight: bold;
+      background-color: #e0f0ff;
+      width: 30%;
+    }
+  </style>
 </head>
 <body>
-    <table border="1" width="100%">
-        <tr>
-            <td colspan="5" align="center"><h1>Миний гэр бүл</h1></td>
-        </tr>
-        <tr align="center">
-            <td><a href="index.html">Нүүр</a></td>
-            <td><a href="about.html">Миний тухай</a></td>
-            <td><a href="family.html">Миний гэр бүл</a></td>
-            <td><a href="friends.html">Найзууд</a></td>
-            <td><a href="contact.html">Холбоо барих</a></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <p>Манай гэр бүл 5 гишүүнтэй: аав, ээж, эгч, дүү, би.</p>
-            </td>
-        </tr>
-    </table>
+
+<h1>Миний гэр бүл</h1>
+
+<div class="nav">
+  <a href="index.html">Нүүр</a>
+  <a href="about.html">Миний тухай</a>
+  <a href="family.html">Миний гэр бүл</a>
+  <a href="friends.html">Найзууд</a>
+  <a href="contact.html">Холбоо барих</a>
+</div>
+
+<table>
+  <tr>
+    <td>Аав</td>
+    <td>Б.Ганболд, Нас 54, Төрсөн өдөр 1971.09.05</td>
+  </tr>
+  <tr>
+    <td>Ээж</td>
+    <td>М.Нэргүй, Нас 48, Төрсөн өдөр 1977.01.23</td>
+  </tr>
+  <tr>
+    <td>Эгч</td>
+    <td>Г.Шинэсаран, Нас 27, Төрсөн өдөр 1998.12.25</td>
+  </tr>
+  <tr>
+    <td>Дүү</td>
+    <td>Г.Саранчимэг, Нас 12, Төрсөн өдөр 2013.07.08</td>
+  </tr>
+</table>
+
 </body>
 </html>
