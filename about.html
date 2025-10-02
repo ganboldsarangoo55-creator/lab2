@@ -9,14 +9,28 @@
       background-color: #f0f4f8;
       margin: 0;
       padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .profile img {
+      width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px gray;
     }
     table {
       border-collapse: collapse;
-      width: 70%;
-      margin: 0 auto;
-      background: white;
-      box-shadow: 0 0 10px gray;
-      border-radius: 10px;
+      width: 400px;
+      margin-top: 10px;
+      text-align: left;
     }
     td {
       border: 1px solid #ccc;
@@ -24,12 +38,8 @@
     }
     td:first-child {
       font-weight: bold;
-      width: 30%;
       background-color: #e0f0ff;
-    }
-    h1 {
-      text-align: center;
-      color: #0077b6;
+      width: 40%;
     }
   </style>
 </head>
@@ -37,31 +47,34 @@
 
 <h1>Миний тухай</h1>
 
-<table>
-  <tr>
-    <td><b>Нэр</b></td>
-    <td>Г.Сарангоо</td>
-  </tr>
-  <tr>
-    <td><b>Нас</b></td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td><b>Төрсөн өдөр</b></td>
-    <td>2005.07.15</td>
-  </tr>
-  <tr>
-    <td><b>Сонирхол</b></td>
-    <td>Дуу сонсох, байгальд алхах, ном унших</td>
-  </tr>
-  <tr>
-    <td><b>Боловсрол</b></td>
-    <td>
-      Дэлгэрмөрөн цогцолбор — 2023 онд төгссөн.<br>
-      Монгол Улсын Их Сургууль — Мэдээллийн системийн 3-р түвшинд суралцаж байна.
-    </td>
-  </tr>
-</table>
+<div class="profile">
+    <img src="BeautyPlus-photo_booth-2025-09-25T05_56_10.png" alt="Миний зураг">
+    <table>
+      <tr>
+        <td>Нэр</td>
+        <td>Г.Сарангоо</td>
+      </tr>
+      <tr>
+        <td>Нас</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Төрсөн өдөр</td>
+        <td>2005.07.15</td>
+      </tr>
+      <tr>
+        <td>Сонирхол</td>
+        <td>Дуу сонсох, байгальд алхах, ном унших</td>
+      </tr>
+      <tr>
+        <td>Боловсрол</td>
+        <td>
+          Дэлгэрмөрөн цогцолбор — 2023 онд төгссөн.<br>
+          Монгол Улсын Их Сургууль — Мэдээллийн системийн 3-р түвшинд суралцаж байна.
+        </td>
+      </tr>
+    </table>
+</div>
 
 </body>
 </html>
